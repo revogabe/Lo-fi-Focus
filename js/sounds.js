@@ -7,7 +7,7 @@ export default function () {
   )
 
   const audioUrl =
-    "https://github.com/gabezin/Lo-fi-Focus/blob/main/assets/beatsrelaxs.mp3"
+    "https://github.com/gabezin/Lo-fi-Focus/blob/main/assets/beatsrelaxs.mp3?raw=true"
 
   const bgAudio = new Audio(audioUrl)
 
