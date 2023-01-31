@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Temporizador Pomodoro com Lo-fi" />
+    <title>LowFocus - Pomodoro</title>
+
+    <link
+      id="fav"
+      rel="shortcut icon"
+      href="./assets/favtimer.svg"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="timer">
+        <span class="minutes">00</span>
+        <span>:</span>
+        <span class="seconds">00</span>
+      </div>
+      <div id="controls">
+        <button class="play">
+          <ion-icon name="play-circle"></ion-icon>
+        </button>
+        <button class="pause hide">
+          <ion-icon name="pause-circle"></ion-icon>
+        </button>
+        <button class="stop hide">
+          <ion-icon name="stop-circle"></ion-icon>
+        </button>
+        <button class="set">
+          <ion-icon name="timer"></ion-icon>
+        </button>
+
+        <button class="github">
+          <a href="https://github.com/gabezin" target="_blank"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+        </button>
+      </div>
+
+      <div id="timerSet">
+        <h3 class="min15">15 min</h3>
+        <h3 class="min30">30 min</h3>
+        <h3 class="min60">60 min</h3>
+      </div>
+    </main>
+
+    <footer>
+      <button class="sound-on">
+        <ion-icon name="volume-high"></ion-icon>
+      </button>
+      <button class="sound-off hide">
+        <ion-icon name="volume-mute"></ion-icon>
+      </button>
+    </footer>
+
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
