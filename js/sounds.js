@@ -6,7 +6,8 @@ export default function () {
     "https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true"
   )
 
-  const audioUrl = "./assets/beatsrelaxs.mp3"
+  const audioUrl =
+    "https://github.com/gabezin/Lo-fi-Focus/blob/main/assets/beatsrelaxs.mp3"
 
   const bgAudio = new Audio(audioUrl)
 
