@@ -62,14 +62,14 @@ buttonSound.addEventListener("click", function () {
   buttonSound.classList.add("hide")
   buttonMute.classList.remove("hide")
   sound.pressButton()
-  sound.bgAudio.play()
+  sound.bgAudio.pause()
 })
 
 buttonMute.addEventListener("click", function () {
   buttonMute.classList.add("hide")
   buttonSound.classList.remove("hide")
   sound.pressButton()
-  sound.bgAudio.pause()
+  sound.bgAudio.play()
 })
 
 //Set Clock
