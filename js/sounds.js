@@ -6,10 +6,9 @@ export default function () {
     "https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true"
   )
 
-  const audioUrl =
+  const bgAudio = new Audio(
     "https://github.com/gabezin/Lo-fi-Focus/blob/main/assets/beatsrelaxs.mp3?raw=true"
-
-  const bgAudio = new Audio(audioUrl)
+  )
 
   function pressButton() {
     buttonPressAudio.play()
