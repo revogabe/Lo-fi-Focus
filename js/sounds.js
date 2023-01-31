@@ -6,9 +6,7 @@ export default function () {
     "https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true"
   )
 
-  const audioUrl = "./assets/beatsrelaxs.mp3"
-
-  const bgAudio = new Audio(audioUrl)
+  const bgAudio = "./assets/beatsrelaxs.mp3"
 
   function pressButton() {
     buttonPressAudio.play()
